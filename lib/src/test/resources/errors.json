@@ -1,0 +1,36 @@
+{
+  "errors": [
+    {
+      "id": "1",
+      "status": "400",
+      "code": "400030",
+      "title": "Bad request",
+      "detail": "Unexpected character '<' in string value",
+      "source": {
+        "pointer": "/data/attributes/title"
+      },
+      "meta": {
+        "query_time": 12
+      },
+      "links": {
+        "about": "http://example.com/support/T19821001"
+      }
+    },
+    {
+      "id": "2",
+      "status": "400",
+      "code": "400030",
+      "title": "Bad request",
+      "detail": "Unexpected character '>' in string value",
+      "source": {
+        "pointer": "/data/attributes/title"
+      },
+      "meta": {
+        "query_time": 12
+      },
+      "links": {
+        "about": "http://example.com/support/T19821001"
+      }
+    }
+  ]
+}
